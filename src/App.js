@@ -1,9 +1,27 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { SocialIcon } from 'react-social-icons';
+import Loader from '@bit/devtalks.devtalks.loader';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 1000);
+  }, []);
+  if (loading) return (
+    <div
+      style={{
+        display: 'flex',
+        width: '100vw',
+        height: '100vh',
+        justifyContent: 'center',
+        alignItems: 'center'
+      }}
+    >
+        <Loader color="green" type="Puff" />
+    </div>
+  );
   return (
     <div className="App">
       <header className="App-header">
