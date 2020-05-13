@@ -16,7 +16,7 @@ const Header = () => (
         <br />
          Tech Speaker 🎤 , Marathoner 🏃‍♂️
         <br />
-        hobbiest photographer
+        hobbyist photographer
         📸
       </h1>
     </div>
