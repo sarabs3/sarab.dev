@@ -5,8 +5,8 @@ import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
-  const siteDescription = 'Site description'
+  const siteTitle = 'Sarabjeet Singh, Software Engineer';
+  const siteDescription = 'Portfolio';
 
   return (
     <Layout>
@@ -19,29 +19,29 @@ const HomeIndex = () => {
         <section id="one">
           <header className="major">
             <h2>
-              Ipsum lorem dolor aliquam ante commodo
-              <br />
-              magna sed accumsan arcu neque.
+              I am building impactful software.
+              {/*<br />
+              React 🔛 Javascript, Consultant, Organiser of React Chandigarh & Devtalks India*/}
             </h2>
           </header>
-          <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
-          </p>
-          <ul className="actions">
+          <p>Living in the Chandigarh, India.
+            I've built websites, mobile apps, animations, graphic, games.
+            <br />
+            If you'd like to discuss your idea, get help, or just want to have a chat, drop me an email.
+            <h6 className="icon fa-envelope-o">
+              <a href="mailto:sarabsingh21@gmail.com"> sarabsingh21@gmail.com</a>
+            </h6>
+            </p>
+         {/* <ul className="actions">
             <li>
               <a href="#" className="button">
                 Learn More
               </a>
             </li>
-          </ul>
+          </ul>*/}
         </section>
 
-        <section id="two">
+        {/*<section id="two">
           <h2>Recent Work</h2>
 
           <Gallery />
@@ -53,9 +53,20 @@ const HomeIndex = () => {
               </a>
             </li>
           </ul>
-        </section>
-
+        </section>*/}
         <section id="three">
+          <h2>Talks</h2>
+          <p>
+            I love to talk about technology, UI/UX, and solving real life problems
+            and an active participant and organizer of <a href="https://www.meetup.com/devtalks-india" target="_blank">React Chandigarh</a> and <a href="https://www.meetup.com/Chandigarh-React-Developers/" target="_blank">DevTalks India</a>.
+          </p>
+        </section>
+        {/*<section id="four">*/}
+        {/*  <h2>Blogs</h2>*/}
+        {/*  <p>I write about tech, fitness, sports</p>*/}
+        {/*</section>*/}
+
+        {/*<section id="three">
           <h2>Get In Touch</h2>
           <p>
             Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
@@ -125,7 +136,7 @@ const HomeIndex = () => {
               </ul>
             </div>
           </div>
-        </section>
+        </section>*/}
       </div>
     </Layout>
   )
