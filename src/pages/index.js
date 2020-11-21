@@ -58,9 +58,11 @@ const HomeIndex = () => {
           <h2>Talks</h2>
           <p>
             I love to talk about technology, UI/UX, and solving real life problems
-            and an active participant and organizer of <a href="https://www.meetup.com/devtalks-india" target="_blank">React Chandigarh</a> and <a href="https://www.meetup.com/Chandigarh-React-Developers/" target="_blank">DevTalks India</a>.
+            and an active participant and organizer of <a href="https://www.meetup.com/Chandigarh-React-Developers/" target="_blank">React Chandigarh</a> and <a href="https://www.meetup.com/devtalks-india" target="_blank">DevTalks India</a>.
           </p>
         </section>
+        <br />
+        <a href="/session">ReactJs Session - 21st Nov 2020</a>
         {/*<section id="four">*/}
         {/*  <h2>Blogs</h2>*/}
         {/*  <p>I write about tech, fitness, sports</p>*/}
