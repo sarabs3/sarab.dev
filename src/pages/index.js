@@ -62,7 +62,7 @@ const HomeIndex = () => {
           </p>
         </section>
         <br />
-        <a href="/session">ReactJs Session - 21st Nov 2020</a>
+        <a href="/sarabjeet_singh_cv.pdf">Download CV</a>
         {/*<section id="four">*/}
         {/*  <h2>Blogs</h2>*/}
         {/*  <p>I write about tech, fitness, sports</p>*/}
