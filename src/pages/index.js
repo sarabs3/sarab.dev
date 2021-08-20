@@ -33,7 +33,6 @@ const HomeIndex = () => {
               <a href="mailto:sarabsingh21@gmail.com"> sarabsingh21@gmail.com</a>
             </h6>
             </p>
-            <ReactPlayer url="https://vimeo.com/572179076/e2fc0385db" />
             
          {/* <ul className="actions">
             <li>
