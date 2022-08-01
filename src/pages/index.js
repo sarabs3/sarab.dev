@@ -45,8 +45,45 @@ const HomeIndex = () => {
         <section id="three">
           <h2>Talks</h2>
           <p>
-            I love to talk about technology, UI/UX, and solving real life problems
-            and an active participant and organizer of <a href="https://www.meetup.com/Chandigarh-React-Developers/" target="_blank">React Chandigarh</a> and <a href="https://www.meetup.com/devtalks-india" target="_blank">DevTalks India</a>.
+            I love to talk about technology, UI/UX, and solving real life problems.
+            <h3 className='head-2'>Recent Talks</h3>
+            <ul>
+                    <li>
+                        <div class="text-xs">
+                            <b>Reactivity in Javascript,</b> at Hack the mountain meetup Chandigarh,
+                            <span class="text-xxs text-yellow-800 uppercase font-bold" > July 2022</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="text-xs">
+                          <b>Fundamentals of Google Firebase,</b> at Google developers group (GDG) chandigarh,
+                            <span class="text-xxs text-yellow-800 uppercase font-bold" > June 2022</span>
+                        </div>
+                    </li>
+                    <li class="justify-between mb-1">
+                        <div class="text-xs">
+                          <b>CSS in JS,</b> at React Delhi NCR Meetup, New Delhi,
+                            <span class="text-xxs text-yellow-800 uppercase text-right font-bold" > February 2020</span>
+                        </div>
+                    </li>
+                    <li class="justify-between mb-1">
+                        <div class="text-xs">
+                        <div>
+                          <b>Open-source community,</b> at Hactober Fest, Microsoft User Group, Chandigarh,
+                            <span class="text-xxs text-yellow-800 uppercase text-right font-bold" > October 2019</span>
+                        </div>
+                    </div>
+                    </li>
+                    <li class="justify-between mb-1">
+                        <div class="text-xs">
+                        <div>
+                          <b>Test Driven Development,</b> at Devtalks India, Chandigarh,
+                            <span class="text-xxs text-yellow-800 uppercase text-right font-bold" > September 2019</span>
+                        </div>
+                    </div>
+                    </li>
+            </ul>
+            and an active participant and organizer of React Chandigarh and <a href="https://devtalks.in/" target="_blank">DevTalks India</a>.
           </p>
         </section>
 
