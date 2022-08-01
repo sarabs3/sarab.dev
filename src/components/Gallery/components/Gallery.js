@@ -25,8 +25,6 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
           description={obj.description}
           position={obj.position}
           toggleLightbox={obj.toggleLightbox}
-          position={i}
-          toggleLightbox={toggleLightbox}
         />); 
         })}
         </div>

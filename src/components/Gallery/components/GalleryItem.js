@@ -5,14 +5,14 @@ const GalleryItem = ({id, source, thumbnail, caption, description, position, tog
 
     const onClick = useCallback((e) => {
         e.preventDefault()
-        toggleLightbox(position)
+        // toggleLightbox(position)
     }, [position, toggleLightbox]);
 
     return (<article key={id} className="6u 12u$(xsmall) work-item">
         <a
         className="image fit thumb"
         href={source}
-        onClick={onClick}
+        target="_blank"
         >
         <img src={thumbnail} />
         </a>
