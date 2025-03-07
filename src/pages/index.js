@@ -25,7 +25,7 @@ const HomeIndex = () => {
               React 🔛 Javascript, Consultant, Organiser of React Chandigarh & Devtalks India*/}
             </h2>
           </header>
-          <p>Living in the Chandigarh, India.
+          <p>Living in the Punjab, India.
             I've built websites, mobile apps, animations, graphic, games.
             <br />
             If you'd like to discuss your idea, get help, or just want to have a chat, drop me an email.
