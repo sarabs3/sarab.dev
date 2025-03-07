@@ -10,6 +10,12 @@ export default function Skills() {
         <h1 className="text-gray-400 text-6xl uppercase tracking-widest">Skills</h1>
             <ul className="list-disc list-inside">
                 <li className="text-gray-600 text-lg uppercase tracking-widest">
+                    <Link href="/skills/scrum">Micro Front End</Link>
+                </li>
+                <li className="text-gray-600 text-lg uppercase tracking-widest">
+                    <Link href="/skills/scrum">Monoreps</Link>
+                </li>
+                <li className="text-gray-600 text-lg uppercase tracking-widest">
                     <Link href="/skills/react">React</Link>
                 </li>
                 <li className="text-gray-600 text-lg uppercase tracking-widest">
