@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import Link from "next/link";
+import { FaGithub, FaLinkedin, FaEnvelope, FaLink } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -19,6 +20,9 @@ export default function Home() {
             <a href="mailto:hellosarab0@gmail.com">
               <FaEnvelope size={20} className="text-orange-500" />
             </a>
+            <Link href="/skills">
+              <FaLink size={20} className="text-orange-500" />
+            </Link>
           </div>
         </div>
         <div className="w-full">
