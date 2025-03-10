@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,6 +25,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <title>Sarabjeet Singh | sarabs3 | Portfolio</title>
+        <meta name="description" content="Welcome to my portfolio website. Explore my projects and skills in software development." /><meta name="keywords" content="portfolio, software engineer, web development, AI" />
+        <meta name="author" content="Sarabjeet Singh" />
+        <meta property="og:title" content="Sarabjeet's Portfolio | Software Engineer" />
+        <meta property="og:description" content="Welcome to my portfolio website." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://sarabs3.dev" />
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
