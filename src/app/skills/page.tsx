@@ -19,6 +19,9 @@ export default function Skills() {
                     <Link href="/skills/react">React</Link>
                 </li>
                 <li className="text-gray-600 text-lg uppercase tracking-widest">
+                    <Link href="/skills/webpack">Webpack</Link>
+                </li>
+                <li className="text-gray-600 text-lg uppercase tracking-widest">
                     <Link href="/skills/nodejs">Node.js</Link>
                 </li>
                 <li className="text-gray-600 text-lg uppercase tracking-widest">
