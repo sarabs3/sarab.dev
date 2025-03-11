@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub, FaLinkedin, FaEnvelope, FaLink } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaLink, FaRunning } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -22,6 +22,9 @@ export default function Home() {
             </a>
             <Link href="/skills">
               <FaLink size={20} className="text-orange-500" />
+            </Link>
+            <Link href="/running">
+              <FaRunning size={20} className="text-orange-500" />
             </Link>
           </div>
         </div>
