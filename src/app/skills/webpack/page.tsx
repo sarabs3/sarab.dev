@@ -13,6 +13,9 @@ export default function Webpack() {
           <li className="text-gray-600 text-lg uppercase tracking-widest">
             <Link href="/skills/webpack/devserver">Webpack Dev Server</Link>
           </li>
+          <li className="text-gray-600 text-lg uppercase tracking-widest">
+            <Link href="/skills/webpack/plugins/html-plugin">Webpack HTML Plugin</Link>
+          </li>
         </ul>
       </main>
     </div>
