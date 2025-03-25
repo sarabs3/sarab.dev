@@ -8,10 +8,10 @@ export default function Qquotes() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start container w-[900px]">
         <div className="flex gap-4 flex-col p-4 rounded-xl">
         <h1 className="text-gray-400 text-6xl uppercase tracking-widest">Quotes</h1>
-        <div className="flex w-full flex-col">
+        <div className="flex w-full flex-col max-w-[900px]">
             {quotes.map((quote) => (
-                <div key={quote.id} className="bg-orange-50 text-black rounded-2xl p-4 w-full">
-                    <pre>{quote.content}</pre>
+                <div key={quote.id} className="bg-orange-50  mt-4 text-black rounded-2xl p-4 w-full">
+                    <pre className="text-wrap">{quote.content}</pre>
                     <a className="text-sm text-sky-300 underline" target="_blank" href={quote.link}>Original Post</a>
                 </div>
             ))}
