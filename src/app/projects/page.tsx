@@ -1,6 +1,8 @@
 import Nav from "@/components/nav";
+import { FaLink } from "react-icons/fa";
 import { projects } from "./data";
 import { Project } from "./types";
+import Link from "next/link";
 
 export default function Projects() {
   return (
@@ -15,7 +17,9 @@ export default function Projects() {
             </ul>
             {projects.map((project: Project) => (
                 <li key={project.id} className="text-gray-600 text-lg uppercase tracking-widest">
-                    <p>{project.title}</p>
+                    {project.link ? <Link href={project.link} 
+                    target="_blank" className="flex gap-2 items-center hover:underline"
+                    rel="noopener noreferrer"><FaLink size={12} /><p>{project.title}</p></Link> : <p>{project.title}</p>}
                 </li>
             ))}
         </div>
