@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub, FaLinkedin, FaEnvelope, FaLink, FaRunning, FaQuoteLeft } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaRunning, FaQuoteLeft, FaBriefcase } from "react-icons/fa";
+import { FaScrewdriverWrench } from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -20,9 +21,6 @@ export default function Home() {
             <a href="mailto:hellosarab0@gmail.com">
               <FaEnvelope size={20} className="text-orange-500" />
             </a>
-            <Link href="/skills">
-              <FaLink size={20} className="text-orange-500" />
-            </Link>
             <Link href="/running">
               <FaRunning size={20} className="text-orange-500" />
             </Link>
@@ -37,6 +35,20 @@ export default function Home() {
           <p className="text-gray-500 mt-6">
             I am a Software Engineer with a passion for developing innovative solutions. I have a strong background in software development and have developed countless solutions that have helped businesses grow. I am always looking for new challenges and opportunities to learn and grow as a developer.
           </p>
+          <div className="mt-8 flex">
+            <div className="p-4 border flex-1/3 rounded-2xl border-gray-600 mr-4 hover:shadow-lg transition-shadow">
+            <Link href="/projects" className="flex items-center">
+              <FaBriefcase size={20} className="text-orange-500 mr-2" />
+              <p className="text-gray-400 text-2xl uppercase tracking-widest">Projects</p>
+            </Link>
+            </div>
+            <div className="p-4 border flex-1/3 rounded-2xl border-gray-600 mr-4 hover:shadow-lg transition-shadow">
+            <Link href="/skills" className="flex items-center">
+              <FaScrewdriverWrench size={20} className="text-orange-500 mr-2" />
+              <p className="text-gray-400 text-2xl uppercase tracking-widest">Skills</p>
+            </Link>
+            </div>
+          </div>
         </div>
 
       </main>
