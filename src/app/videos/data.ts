@@ -16,5 +16,10 @@ export const videos = [
         title: "RAG Pipelines",
         url: "https://www.youtube.com/shorts/wutpThS09Ic?si=y4tydYM0xtXpkgF8",
         thumbnail: "https://img.youtube.com/vi/wutpThS09Ic/hqdefault.jpg"
+    },{
+        id: 4,
+        title: "Database indexing. Scaling production applications",
+        url: "https://www.youtube.com/shorts/DcaKz5j-A7w?si=y4tydYM0xtXpkgF8",
+        thumbnail: "https://img.youtube.com/vi/DcaKz5j-A7w/hqdefault.jpg"
     }
 ];
