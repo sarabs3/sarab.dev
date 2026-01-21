@@ -21,5 +21,20 @@ export const videos = [
         title: "Database indexing. Scaling production applications",
         url: "https://www.youtube.com/shorts/DcaKz5j-A7w?si=y4tydYM0xtXpkgF8",
         thumbnail: "https://img.youtube.com/vi/DcaKz5j-A7w/hqdefault.jpg"
+    }, {
+        id: 5,
+        title: "Javascript for beginners",
+        url: "https://www.youtube.com/watch?v=yjWKOqdodc0&si=y4tydYM0xtXpkgF8",
+        thumbnail: "https://img.youtube.com/vi/yjWKOqdodc0/hqdefault.jpg"
+    }, {
+        id: 6,
+        title: "How to use Mailgun with Node.js",
+        url: "https://www.youtube.com/watch?v=PdrjYPGwvuM&si=y4tydYM0xtXpkgF8",
+        thumbnail: "https://img.youtube.com/vi/PdrjYPGwvuM/hqdefault.jpg"
+    }, {
+        id: 7,
+        title: "NodeJs complete course for beginners",
+        url: "https://www.youtube.com/watch?v=opze9sIeO_A&si=y4tydYM0xtXpkgF8",
+        thumbnail: "https://img.youtube.com/vi/opze9sIeO_A/hqdefault.jpg"
     }
 ];
