@@ -4,11 +4,15 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-type Props = { params: Promise<{ id: string }> };
+type Props = { params: Promise<{ slug: string }> };
+
+export async function generateStaticParams() {
+  return blogs.map((blog) => ({ slug: blog.slug }));
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { id } = await params;
-  const blog = blogs.find((b) => b.id === Number(id));
+  const { slug } = await params;
+  const blog = blogs.find((b) => b.slug === slug);
   if (!blog) return { title: "Blog not found" };
   return {
     title: `${blog.title} | Sarabjeet Singh`,
@@ -17,8 +21,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function BlogPost({ params }: Props) {
-  const { id } = await params;
-  const blog = blogs.find((b) => b.id === Number(id));
+  const { slug } = await params;
+  const blog = blogs.find((b) => b.slug === slug);
+  console.log('1232323313',slug, blogs, blog);
 
   if (!blog) notFound();
 
@@ -28,7 +33,7 @@ export default async function BlogPost({ params }: Props) {
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <Nav />
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start container w-[900px]">
-        <div className="flex gap-4 flex-col p-4 rounded-xl w-full max-w-[900px]">
+        <div className="flex flex-col gap-4 p-4 rounded-xl w-full max-w-[900px]">
           <div className="flex flex-col gap-2">
             <Link
               href="/blogs"

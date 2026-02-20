@@ -34,10 +34,11 @@ In summary, both Claude Opus 4.6 and Sonnet 4.6 offer unique strengths and capab
 export const blogs: Blog[] = [
   {
     id: 1,
+    slug: "claude-opus-4-6-vs-sonnet-4-6-models",
     title: "Claude Opus 4.6 vs Sonnet 4.6 models",
     description:
       "A practical framework to compare capabilities, safety and alignment controls, and deployment considerations—plus a decision guide for choosing between these two contemporary LLM options.",
-    link: "/blogs/1",
+    link: "/blogs/claude-opus-4-6-vs-sonnet-4-6-models",
     date: "2025-02-20",
     content: claudeOpusVsSonnetContent,
   },
