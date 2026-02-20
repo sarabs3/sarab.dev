@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Sarabjeet Singh | sarabs3 | Portfolio",
   description: "Welcome to my portfolio website. Explore my projects and skills in software development.",
-  keywords: "portfolio, software engineer, web development, AI",
+  keywords: "portfolio, software engineer, web development, AI, Docker, Langchain, LangChain, AI applications",
   authors: {name: "Sarabjeet Singh", url: "https://sarabs3.dev"},
 };
 
@@ -30,7 +30,7 @@ export default function RootLayout({
       <Head>
         <title>Sarabjeet Singh | sarabs3 | Portfolio</title>
         <meta name="description" content="Welcome to my portfolio website. Explore my projects and skills in software development." />
-        <meta name="keywords" content="portfolio, software engineer, web development, AI" />
+        <meta name="keywords" content="portfolio, software engineer, web development, AI, Docker, Langchain, LangChain, AI applications" />
         <meta name="author" content="Sarabjeet Singh" />
         <meta property="og:title" content="Sarabjeet's Portfolio | Software Engineer" />
         <meta property="og:description" content="Welcome to my portfolio website." />
