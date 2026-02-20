@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub, FaLinkedin, FaEnvelope, FaRunning, FaQuoteLeft, FaBriefcase } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaRunning, FaQuoteLeft, FaBriefcase, FaBlog } from "react-icons/fa";
 import { FaScrewdriverWrench } from "react-icons/fa6";
 import { LiaVideoSolid } from "react-icons/lia";
 
@@ -53,6 +53,12 @@ export default function Home() {
             <Link href="/videos" className="flex items-center">
               <LiaVideoSolid size={20} className="text-orange-500 mr-2" />
               <p className="text-gray-400 text-2xl uppercase tracking-widest">Videos</p>
+            </Link>
+            </div>
+            <div className="p-4 border flex-1/3 rounded-2xl border-gray-600 hover:shadow-lg transition-shadow">
+            <Link href="/blogs" className="flex items-center">
+              <FaBlog size={20} className="text-orange-500 mr-2" />
+              <p className="text-gray-400 text-2xl uppercase tracking-widest">Blogs</p>
             </Link>
             </div>
           </div>
