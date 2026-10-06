@@ -15,6 +15,11 @@ export default function Running() {
             <div className="bg-orange-50 text-black rounded-2xl p-4 h-80 w-1/3">Tuffman Half Marathon Sep 2024</div>
             <div className="bg-orange-50 text-black rounded-2xl p-4 h-80 w-1/3">Hansali Full Marathon Nov 2024</div>
             <div className="bg-orange-50 text-black rounded-2xl p-4 h-80 w-1/3">Tuffman Stadium Run March 2025</div>
+            <div className="bg-orange-50 text-black rounded-2xl p-4 h-80 w-1/3">Hansali Full Marathon Nov 2025</div>
+            <div className="bg-orange-50 text-black rounded-2xl p-4 h-80 w-1/3">Hyrox Delhi July 2026</div>
+            <div className="bg-orange-50 text-black rounded-2xl p-4 h-80 w-1/3">Burpees Broad Jump Challenge Sep 2026</div>
+            <div className="bg-orange-50 text-black rounded-2xl p-4 h-80 w-1/3">SK Tricity Marathon Sep 2026</div>
+            <div className="bg-orange-50 text-black rounded-2xl p-4 h-80 w-1/3">Tuffman Stadium Run March 2025</div>
         </div>
       </main>
     </div>
